@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dfillNaN from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dfill-nan@deno/mod.js';
+import dfillNaN from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dfill-nan@v0.0.0-deno/mod.js';
 ```
 
 #### dfillNaN( N, alpha, x, strideX )
@@ -142,7 +142,7 @@ dfillNaN.ndarray( 3, 0.0, x, 1, x.length-3 );
 
 ```javascript
 import nans from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-nans@deno/mod.js';
-import dfillNaN from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dfill-nan@deno/mod.js';
+import dfillNaN from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dfill-nan@v0.0.0-deno/mod.js';
 
 var x = nans( 10, 'float64' );
 console.log( x );
