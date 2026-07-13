@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-dfillNaN = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dfill-nan@umd/browser.js' )
+dfillNaN = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dfill-nan@v0.0.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var dfillNaN = require( 'path/to/vendor/umd/blas-ext-base-dfill-nan/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dfill-nan@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dfill-nan@v0.0.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -169,7 +169,7 @@ dfillNaN.ndarray( 3, 0.0, x, 1, x.length-3 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-nans@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dfill-nan@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dfill-nan@v0.0.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
